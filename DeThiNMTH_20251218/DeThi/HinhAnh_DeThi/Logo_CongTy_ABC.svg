@@ -1,0 +1,20 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#1F4E78"/>
+  
+  <!-- Company Name -->
+  <text x="300" y="180" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#FFFFFF" text-anchor="middle">ABC</text>
+  
+  <!-- Subtitle -->
+  <text x="300" y="240" font-family="Arial, sans-serif" font-size="32" fill="#E3F2FD" text-anchor="middle">CÔNG TY</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="150" cy="100" r="30" fill="#2E75B6" opacity="0.5"/>
+  <circle cx="450" cy="100" r="30" fill="#2E75B6" opacity="0.5"/>
+  <circle cx="150" cy="300" r="30" fill="#2E75B6" opacity="0.5"/>
+  <circle cx="450" cy="300" r="30" fill="#2E75B6" opacity="0.5"/>
+  
+  <!-- Bottom line -->
+  <line x1="100" y1="320" x2="500" y2="320" stroke="#E3F2FD" stroke-width="4"/>
+</svg>
+

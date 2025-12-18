@@ -1,0 +1,55 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#FFFFFF" stroke="#2E75B6" stroke-width="2"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#1F4E78" text-anchor="middle">BIỂU ĐỒ DOANH THU THEO QUÝ 2024</text>
+  
+  <!-- Chart area -->
+  <rect x="80" y="80" width="640" height="360" fill="#F5F5F5" stroke="#CCCCCC" stroke-width="1"/>
+  
+  <!-- Y-axis label -->
+  <text x="30" y="260" font-family="Arial, sans-serif" font-size="16" fill="#666666" text-anchor="middle" transform="rotate(-90 30 260)">Doanh thu (triệu VNĐ)</text>
+  
+  <!-- X-axis labels -->
+  <text x="200" y="470" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1F4E78" text-anchor="middle">Q1</text>
+  <text x="350" y="470" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1F4E78" text-anchor="middle">Q2</text>
+  <text x="500" y="470" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1F4E78" text-anchor="middle">Q3</text>
+  <text x="650" y="470" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1F4E78" text-anchor="middle">Q4</text>
+  
+  <!-- Y-axis values -->
+  <text x="70" y="420" font-family="Arial, sans-serif" font-size="14" fill="#666666" text-anchor="end">0</text>
+  <text x="70" y="340" font-family="Arial, sans-serif" font-size="14" fill="#666666" text-anchor="end">10,000</text>
+  <text x="70" y="260" font-family="Arial, sans-serif" font-size="14" fill="#666666" text-anchor="end">20,000</text>
+  <text x="70" y="180" font-family="Arial, sans-serif" font-size="14" fill="#666666" text-anchor="end">30,000</text>
+  <text x="70" y="100" font-family="Arial, sans-serif" font-size="14" fill="#666666" text-anchor="end">40,000</text>
+  
+  <!-- Grid lines -->
+  <line x1="80" y1="420" x2="720" y2="420" stroke="#E0E0E0" stroke-width="1"/>
+  <line x1="80" y1="340" x2="720" y2="340" stroke="#E0E0E0" stroke-width="1"/>
+  <line x1="80" y1="260" x2="720" y2="260" stroke="#E0E0E0" stroke-width="1"/>
+  <line x1="80" y1="180" x2="720" y2="180" stroke="#E0E0E0" stroke-width="1"/>
+  <line x1="80" y1="100" x2="720" y2="100" stroke="#E0E0E0" stroke-width="1"/>
+  
+  <!-- Bars -->
+  <!-- Q1: 28,000 -->
+  <rect x="150" y="200" width="100" height="220" fill="#2E75B6" opacity="0.8"/>
+  <text x="200" y="190" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1F4E78" text-anchor="middle">28,000</text>
+  
+  <!-- Q2: 30,000 -->
+  <rect x="300" y="180" width="100" height="240" fill="#2E75B6" opacity="0.8"/>
+  <text x="350" y="170" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1F4E78" text-anchor="middle">30,000</text>
+  
+  <!-- Q3: 32,000 -->
+  <rect x="450" y="160" width="100" height="260" fill="#2E75B6" opacity="0.8"/>
+  <text x="500" y="150" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1F4E78" text-anchor="middle">32,000</text>
+  
+  <!-- Q4: 35,000 -->
+  <rect x="600" y="130" width="100" height="290" fill="#1F4E78" opacity="0.9"/>
+  <text x="650" y="120" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1F4E78" text-anchor="middle">35,000</text>
+  
+  <!-- Legend -->
+  <rect x="600" y="60" width="15" height="15" fill="#2E75B6"/>
+  <text x="620" y="72" font-family="Arial, sans-serif" font-size="14" fill="#1F4E78">Doanh thu (triệu VNĐ)</text>
+</svg>
+
